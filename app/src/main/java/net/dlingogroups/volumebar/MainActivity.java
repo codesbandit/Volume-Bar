@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Toolbar toolbarTop = (Toolbar) findViewById(R.id.toolbar_top);
-//        TextView mTitle = (TextView) toolbarTop.findViewById(R.id.toolbar_title);
         final EditText edPnjg = (EditText)findViewById(R.id.edP);
         final EditText edLebar = (EditText)findViewById(R.id.edL);
         final EditText edTinggi = (EditText)findViewById(R.id.edT);
